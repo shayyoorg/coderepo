@@ -1,0 +1,72 @@
+contourpy==1.0.6
+    # via matplotlib
+cycler==0.11.0
+    # via matplotlib
+fonttools==4.38.0
+    # via matplotlib
+kiwisolver==1.4.4
+    # via matplotlib
+matplotlib==3.6.2
+    # via
+    #   -r requirements.in
+    #   seaborn
+numpy==1.23.5
+    # via
+    #   -r requirements.in
+    #   contourpy
+    #   matplotlib
+    #   pandas
+    #   scipy
+    #   seaborn
+packaging==21.3
+    # via matplotlib
+pandas==1.5.1
+    # via
+    #   -r requirements.in
+    #   seaborn
+pillow==9.3.0
+    # via matplotlib
+pyparsing==3.0.9
+    # via
+    #   matplotlib
+    #   packaging
+python-dateutil==2.8.2
+    # via
+    #   matplotlib
+    #   pandas
+pytz==2022.6
+    # via pandas
+scipy==1.9.3
+    # via seaborn
+seaborn==0.10.1
+    # via -r requirements.in
+six==1.16.0
+    # via python-dateutil
+
+# mercurial checkouts
+-e hg+http://hg.myproject.org/MyProject/#egg=MyProject
+-e hg+ssh://hg@myproject.org/MyProject/#egg=MyProject
+
+-e hg+http://hg.myproject.org/MyProject/@da39a3ee5e6b#egg=MyProject
+-e hg+http://hg.myproject.org/MyProject/@2019#egg=MyProject
+-e hg+http://hg.myproject.org/MyProject/@v1.0#egg=MyProject
+-e hg+http://hg.myproject.org/MyProject/@special_feature#egg=MyProject
+
+
+# bazaar checkouts
+-e bzr+http://bzr.myproject.org/MyProject/trunk/#egg=MyProject
+-e bzr+sftp://user@myproject.org/MyProject/trunk/#egg=MyProject
+-e bzr+ssh://user@myproject.org/MyProject/trunk/#egg=MyProject
+
+-e bzr+https://bzr.myproject.org/MyProject/trunk/@2019#egg=MyProject
+-e bzr+http://bzr.myproject.org/MyProject/trunk/@v1.0#egg=MyProject
+cliff>=3.5.0 # Apache-2.0
+iso8601>=0.1.11 # MIT
+openstacksdk>=0.103.0 # Apache-2.0
+osc-lib>=2.3.0 # Apache-2.0
+oslo.i18n>=3.15.3 # Apache-2.0
+oslo.utils>=3.33.0 # Apache-2.0
+python-keystoneclient>=3.22.0 # Apache-2.0
+python-novaclient>=18.1.0 # Apache-2.0
+python-cinderclient>=3.3.0 # Apache-2.0
+stevedore>=2.0.1 # Apache-2.0
