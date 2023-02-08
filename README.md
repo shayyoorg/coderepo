@@ -1,3 +1,3 @@
 # coderepo
 
-test github acrions
+test github action
